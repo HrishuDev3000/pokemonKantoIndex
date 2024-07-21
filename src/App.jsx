@@ -54,10 +54,24 @@ function App() {
               onChange={(e) => setFilterType(e.target.value)}
             >
               <option value="">All Types</option>
-              <option value="Fire">Fire</option>
               <option value="Water">Water</option>
+              <option value="Electric">Electric</option>
               <option value="Grass">Grass</option>
-              {/* Add more options as needed */}
+              <option value="Normal">Grass</option>
+              <option value="Ground">Ground</option>
+              <option value="Rock">Rock</option>
+              <option value="Fire">Fire</option>
+              <option value="Ice">Ice</option>
+              <option value="Flying">Flying</option>
+              <option value="Ghost">Ghost</option>
+              <option value="Poison">Poison</option>
+              <option value="Psychic">Psychic</option>
+              <option value="Bug">Bug</option>
+              <option value="Fighting">Fighting</option>
+              <option value="Dragon">Gen 2: Dragon</option>
+              <option value="Steel">Gen 2: Steel</option>
+              <option value="Dark">Gen 2: Dark</option>
+              <option value="Fairy">Gen 6: Fairy</option>
             </select>
           </div>
 
@@ -68,11 +82,25 @@ function App() {
               value={filterWeakness}
               onChange={(e) => setFilterWeakness(e.target.value)}
             >
-              <option value="">All Weaknesses</option>
+               <option value="">All Weaknesses</option>
               <option value="Water">Water</option>
               <option value="Electric">Electric</option>
               <option value="Grass">Grass</option>
-              {/* Add more options as needed */}
+              <option value="Normal">Grass</option>
+              <option value="Ground">Ground</option>
+              <option value="Rock">Rock</option>
+              <option value="Fire">Fire</option>
+              <option value="Ice">Ice</option>
+              <option value="Flying">Flying</option>
+              <option value="Ghost">Ghost</option>
+              <option value="Poison">Poison</option>
+              <option value="Psychic">Psychic</option>
+              <option value="Bug">Bug</option>
+              <option value="Fighting">Fighting</option>
+              <option value="Dragon">Gen 2: Dragon</option>
+              <option value="Steel">Gen 2: Steel</option>
+              <option value="Dark">Gen 2: Dark</option>
+              <option value="Fairy">Gen 6: Fairy</option>
             </select>
           </div>
 
